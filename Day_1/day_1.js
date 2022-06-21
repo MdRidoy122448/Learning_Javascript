@@ -29,3 +29,15 @@ console.log(bikeName);
 */
 //impossible
 
+/*
+Increment and decremnt little bit confusing
+var a = 6;
+console.log(a);
+
+--a;
+console.log(a);
+a--;
+console.log(a);
+a++;
+console.log(a);
+*/
