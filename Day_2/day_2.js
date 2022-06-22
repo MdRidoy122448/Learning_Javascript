@@ -109,4 +109,46 @@ let tags = ["template literals","python", "javascript", "es6"];
 
 
 // program 13 end
+let a = "50";
+let b = "5";
+
+let add = a + b;//a and b concated 
+console.log(add);
+
+let sub = a - b;
+console.log(sub);
+
+let multiply = a * b;
+console.log(multiply);
+
+let division = a / b;
+console.log(division);
+
+let nanDivision = 100 / "Apple";
+console.log(nanDivision);
+
+let num1 = NaN;
+let num2 = 5;
+let num3 = num1 + num2;
+console.log(num3);
+console.log(typeof num3);
+console.log(isNaN(num3));
+
+
+let num4 = NaN;
+let num5 = "5";
+let num6 = num4 + num5;
+console.log(num6);
+console.log(typeof num6);
+console.log(isNaN(num6));
+
+//program 14 end
+
+let numToString = 123;
+console.log(numToString.toString());
+console.log((123).toString());
+console.log((100 + 23).toString());
+
+//program 14 end
+
 
